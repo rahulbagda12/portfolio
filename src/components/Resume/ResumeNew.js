@@ -23,18 +23,7 @@ function ResumeNew() {
         style={{ backgroundImage: "url(../../Assets/home-bg.jpg)", backgroundSize: "cover", color: "white" }}
       >
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            download="Resume.pdf"
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+        
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
@@ -42,7 +31,7 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", marginTop: "20px" }}>
           <Button
             variant="primary"
             href={pdf}
