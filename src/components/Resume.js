@@ -4,8 +4,7 @@ const Resume = () => {
   return (
     <div className="resume-container">
       <h1>My Resume</h1>
-      <a href="/Resume.pdf" download>
-      </a>
+      {/* Removed the resume button */}
     </div>
   );
 };
